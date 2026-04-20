@@ -2,8 +2,8 @@
 
 DROP FUNCTION IF EXISTS circ_report;
 	
-CREATE FUNCTION count_circulation_history(
-		start_date date DEFAULT '2000-01-01',
+CREATE FUNCTION generate_circ_report(
+	start_date date DEFAULT '2000-01-01',
   	end_date date DEFAULT '2099-01-01'
 )
 returns table(
