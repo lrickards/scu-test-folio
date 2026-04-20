@@ -1,0 +1,19 @@
+{
+    "displayName": "Display circulation stats for a given date range",
+    "description": "Returns a list of titles that have circulated within a given time period. Created by Lev to assist with collection development.",
+    "instructions": "Specify the dates between which you want to review circulation history.",
+    "parameters": [
+        {
+            "name": "start_date",
+            "displayName": "Earliest date of circulation activity",
+            "type": "date",
+            "required": false
+        },
+        {
+            "name": "end_date",
+            "displayName": "Latest date of circulation activity",
+            "type": "date",
+            "required": false
+        }
+    ]
+}
